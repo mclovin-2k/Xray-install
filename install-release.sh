@@ -681,7 +681,7 @@ install_geodata() {
   local download_link_geoip="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
   local download_link_geosite="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
   local file_ip='geoip.dat'
-  local file_dlc='dlc.dat'
+  local file_dlc='geosite.dat'
   local file_site='geosite.dat'
   local dir_tmp
   dir_tmp="$(mktemp -d)"
